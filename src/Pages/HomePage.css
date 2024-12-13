@@ -1,0 +1,119 @@
+/* 전체 레이아웃 */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+  }
+  
+  /* 헤더 */
+  header {
+    background-color: #5b7dff;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  header nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 메인 컨텐츠 */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .welcome {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome h2 {
+    color: #5b7dff;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcome button {
+    background-color: #5b7dff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .welcome button:hover {
+    background-color: #3a5bcc;
+  }
+  
+  /* 주요 기능 섹션 */
+  .features {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features h3 {
+    color: #5b7dff;
+    margin-bottom: 1rem;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f0f4ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .features li strong {
+    color: #333;
+  }
+  
+  /* 푸터 */
+  footer {
+    background-color: #5b7dff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

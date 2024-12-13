@@ -1,0 +1,89 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+  }
+  
+  .content-container {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* 운동 검색 섹션 (왼쪽) */
+  .search-section {
+    flex: 1;
+    background-color: #f0f4ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #5b7dff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-card {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-card button {
+    background-color: #5b7dff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* 운동 루틴 섹션 (오른쪽) */
+  .routine-section {
+    flex: 1;
+    background-color: #f0f4ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .routine-list {
+    margin-top: 20px;
+  }
+  
+  .routine-card {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

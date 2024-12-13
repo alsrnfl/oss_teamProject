@@ -1,0 +1,131 @@
+.routine-page {
+  font-family: "Arial", sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.routine-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.routine-title {
+  text-align: center;
+  color: #5b7dff;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.routine-days-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
+
+.routine-day {
+  background-color: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.routine-day h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.exercise-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.edit-button,
+.delete-button {
+  background-color:  #ffa500;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-button:hover {
+  background-color: #cc8400;
+}
+
+.delete-button {
+  background-color: #ff5b5b;
+}
+
+.delete-button:hover {
+  background-color: #cc4949;
+}
+
+
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-width: 400px;
+  width: 90%;
+}
+
+.edit-modal h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.edit-modal input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.edit-modal button {
+  background-color: #5b7dff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.edit-modal button:hover {
+  background-color: #3a5bcc;
+}
+
+.edit-modal button:nth-child(2) {
+  background-color: #ff5b5b;
+}
+
+.edit-modal button:nth-child(2):hover {
+  background-color: #cc4949;
+}
+
+.edit-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
